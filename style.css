@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #00ffff;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.cta {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cta button {
+  padding: 15px 30px;
+  font-size: 1.1em;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta button:hover {
+  background-color: #00cccc;
+  transform: scale(1.05);
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.benefit {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.benefit:hover {
+  transform: translateY(-10px);
+}
+
+.benefit h3 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+.testimonial,
+.contact {
+  text-align: center;
+  margin-top: 50px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  width: 80%;
+  color: #ddd;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp a {
+  background-color: #25d366;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+  }
+}

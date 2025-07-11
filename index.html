@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiteClok - Criação de Sites Profissionais</title>
+  <meta name="description" content="A SiteClok cria sites profissionais, modernos e responsivos para impulsionar o seu negócio online.">
+  <meta property="og:title" content="SiteClok - Criação de Sites Profissionais">
+  <meta property="og:description" content="Sites modernos, rápidos e que geram resultados.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://siteclok.com">
+  <meta property="og:image" content="https://siteclok.com/imagem-destaque.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: linear-gradient(to right, #0f2027, #203a43, #2c5364); color: white; padding: 20px; scroll-behavior: smooth; }
+    header { text-align: center; padding: 40px 20px; }
+    h1 { font-size: 3em; color: #00ffff; }
+    p { font-size: 1.2em; margin-top: 10px; }
+    .cta { text-align: center; margin: 40px 0; }
+    .cta button { padding: 15px 30px; font-size: 1.1em; background-color: #00ffff; color: #000; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+    .cta button:hover { background-color: #00cccc; transform: scale(1.05); }
+    .benefits { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px; }
+    .benefit { background-color: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 15px; width: 280px; text-align: center; transition: 0.4s; }
+    .benefit:hover { transform: translateY(-10px); }
+    .benefit h3 { color: #00ffff; margin-bottom: 10px; }
+    .testimonial, .contact { text-align: center; margin-top: 50px; }
+    blockquote { font-style: italic; margin: 20px auto; width: 80%; color: #ddd; }
+    form { margin-top: 20px; }
+    input, textarea { width: 80%; padding: 10px; margin: 10px 0; border: none; border-radius: 5px; }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; }
+    .whatsapp a { background-color: #25d366; color: white; padding: 15px 20px; border-radius: 50px; text-decoration: none; font-size: 1.2em; }
+    footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #aaa; }
+    @media (max-width: 600px) { h1 { font-size: 2em; } .benefits { flex-direction: column; align-items: center; } }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>SiteClok</h1>
+    <p>Crie um site profissional e moderno para destacar o seu negócio!</p>
+  </header>
+
+  <div class="cta" data-aos="zoom-in">
+    <button onclick="alert('Vamos começar o seu site!')">Comece Agora!</button>
+  </div>
+
+  <section class="benefits">
+    <div class="benefit" data-aos="fade-up" data-aos-delay="100">
+      <h3><i class="fas fa-bolt"></i> Rápido & Responsivo</h3>
+      <p>Sites que funcionam perfeitamente em qualquer dispositivo.</p>
+    </div>
+    <div class="benefit" data-aos="fade-up" data-aos-delay="200">
+      <h3><i class="fas fa-paint-brush"></i> Design Junior</h3>
+      <p>Layouts modernos, limpos e personalizados para sua marca.</p>
+    </div>
+    <div class="benefit" data-aos="fade-up" data-aos-delay="300">
+      <h3><i class="fas fa-chart-line"></i> Resultados Reais</h3>
+      <p>Converta mais visitantes em clientes com performance otimizada.</p>
+    </div>
+  </section>
+
+  <section class="testimonial" data-aos="fade-right">
+    <h2>Depoimentos de Clientes</h2>
+    <blockquote>"O SiteClok transformou meu negócio com um site lindo e funcional. Recomendo demais!" – Joana Lima</blockquote>
+    <blockquote>"Em menos de uma semana meu site estava no ar e já ganhei novos clientes." – Marcos Diniz</blockquote>
+  </section>
+
+  <section class="contact" data-aos="fade-left">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu Nome" required><br>
+      <input type="email" placeholder="Seu Email" required><br>
+      <textarea rows="5" placeholder="Sua Mensagem"></textarea><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <div class="whatsapp" data-aos="zoom-in-up">
+    <a href="https://wa.me/62992602091" target="_blank"><i class="fab fa-whatsapp"></i> Fale Conosco</a>
+  </div>
+
+  <footer data-aos="fade-up">
+    © 2025 SiteClok - Todos os direitos reservados.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
